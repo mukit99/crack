@@ -1,31 +1,70 @@
-# crack
-# OWASP dependency-check
+# Tool-X
 
-### Description
-Dependency-Check is a Software Composition Analysis tool that identifies project dependencies and checks if there are 
-any known, publicly disclosed, vulnerabilities. The tool can be part of a solution to the 
-[OWASP Top 10 2017 A9:2017-Using Components with Known Vulnerabilities](https://www.owasp.org/index.php/Top_10-2017_Top_10).
+[![Build Status](https://img.shields.io/github/forks/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
+[![Build Status](https://img.shields.io/github/stars/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
+[![License](https://img.shields.io/github/license/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
 
-### Categories
-* Code Assessment
-* Software Composition Analysis
+------------------------------------------------------------------------
 
-#### BlackHat Arsenal Sessions
+### Introduction
 
-[![Black Hat Arsenal](https://rawgit.com/toolswatch/badges/master/arsenal/usa/2018.svg)](https://www.toolswatch.org/2018/05/black-hat-arsenal-usa-2018-the-w0w-lineup/)
-[![Black Hat Arsenal](https://rawgit.com/toolswatch/badges/master/arsenal/usa/2015.svg)](https://www.toolswatch.org/2015/06/black-hat-arsenal-usa-2015-speakers-lineup/)
-[![Black Hat Arsenal](https://rawgit.com/toolswatch/badges/master/arsenal/usa/2014.svg)](https://www.toolswatch.org/2014/06/black-hat-usa-2014-arsenal-tools-speaker-list/)
-[![Black Hat Arsenal](https://rawgit.com/toolswatch/badges/master/arsenal/usa/2013.svg)](https://www.toolswatch.org/2013/06/announcement-blackhat-arsenal-usa-2013-selected-tools/)
+*Tool-X is a Kali Linux hacking tools installer for Termux and linux system.*
+Tool-X was developed for Termux and linux based systems. Using Tool-X, you can install almost 370+ hacking tools in Termux (android) and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
 
+*A similar lightweight and fast tool [onex](https://github.com/rajkumardusad/onex) is available. We can use onex instead of Tool-X*
 
-### Code 
-https://github.com/jeremylong/DependencyCheck
+<br>
+<p align="center">
+<img width="40%" src="core/toolx.png"/>
+<img width="28.8%" src="core/toolx_cat.png"/>
+<img width="23.4%" src="core/Screenshot_2020-05-17-20-17-56.png"/>
+</p>
 
-### Documentation
-https://jeremylong.github.io/DependencyCheck/
+------------------------------------------------------------------------
 
-### Lead Developer
-* Jeremy Long ([@ctxt](https://twitter.com/ctxt))
+### Operating System Requirements
 
-### Social Media 
-* [Twitter](https://twitter.com/ctxt)
+Tool-X works on any of the following operating systems:<br>
+• **Android** (Using the Termux App) <br>
+• **Linux** (Debian Based Systems) <br>
+• **Unix**
+
+------------------------------------------------------------------------
+
+### How to Install
+
+Open the terminal and type following commands.
+
+* `apt update`
+
+* `apt install git`
+
+* `git clone https://github.com/rajkumardusad/Tool-X.git`
+
+* `cd Tool-X`
+
+* `chmod +x install`
+
+* `sh install` if not work than use `./install`
+
+------------------------------------------------------------------------
+
+### How to Use ?
+
+Enter a Number for a specific output:
+- (1) : To show all available tools and type the number of a tool which you want to install.
+- (2) : To show tools category.
+- (3) : If you want to update Tool-X.
+- (4) : If you want to know About Us.
+- (x) : To exit the tool.
+
+<br/>
+
+Type `Tool-X` or `toolx` from anywhere in your terminal to open Tool-X.
+
+------------------------------------------------------------------------
+
+**Warning**
+
+We are not responsible for any misuse or damage caused by this program. use this tool at your own risk!
+
